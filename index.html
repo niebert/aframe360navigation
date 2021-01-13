@@ -11,20 +11,24 @@
     <script src="js/components/link-controls.js"></script>
     <script src="shaders/skyGradient.js"></script>
   </head>
-  <body>
-    <!--
-    <a href="rhine2.html" position="-3.5 1.5 -1.0" image="#thumbRhine1" title="Move to Rhine 2"></a-link>
-    <a href="rhine3.html" position="0 1.5 -1.0" image="#thumbRhine2"  title="Move to Rhine 3"></a-link>
-    <a href="rhine4.html" position="3.5 1.5 -1.0" image="#thumbRhine3" title="Move to Rhine 4"></a-link>
-    -->
+  <body style="font-family: Helvetica, Arial, Sans-Serif;background:#84c9e9">
+    <a href="index.html" style="display:none">Rhine 1</a>
+    <a href="rhine2.html" style="display:none">Rhine 2</a>
+    <a href="rhine3.html" style="display:none">Rhine 3</a>
+    <a href="rhine4.html" style="display:none">Rhine 4</a>
+    <b>360 Degree Image:</b> -
+    <a href="rhein1_rodenkirchen.html">Rhine 1</a> -
+    <a href="rhein2_rodenkirchen.html">Rhine 2</a> -
+    <a href="rhein3_rodenkirchen.html">Rhine 3</a> -
+    <a href="rhein4_rodenkirchen.html">Rhine 4</a>
     <a-scene raycaster="far: 100; objects: [link];" cursor="rayOrigin: mouse" camera-position>
       <a-assets>
-        <img id="thumbRhine1" crossOrigin="anonymous" src="img/rhein1_rodenkirchen.jpg">
-        <img id="thumbRhine2" crossOrigin="anonymous" src="img/rhein2_rodenkirchen.jpg">
-        <img id="thumbRhine3" crossOrigin="anonymous" src="img/rhein3_rodenkirchen.jpg">
-        <img id="thumbRhine4" crossOrigin="anonymous" src="img/rhein4_rodenkirchen.jpg">
+        <img id="thumbRhine1"  src="img/rhein1_rodenkirchen.jpg">
+        <img id="thumbRhine2"  src="img/rhein2_rodenkirchen.jpg">
+        <img id="thumbRhine3"  src="img/rhein3_rodenkirchen.jpg">
+        <img id="thumbRhine4"  src="img/rhein4_rodenkirchen.jpg">
       </a-assets>
-      <a-link href="rhine2.html" position="-3.5 1.5 -1.0" image="#thumbRhine1" title="Move to Rhine 2"></a-link>
+      <a-link href="rhine2.html" position="-3.5 1.5 -1.0"  rotation="0 45 0" image="#thumbRhine1" title="Move to Rhine 2"></a-link>
       <!--
       <a-link href="rhine2.html" position="-3.5 1.5 -1.0" image="#thumbRhine1" title="Move to Rhine 2"></a-link>
       <a-link href="rhine3.html" position="0 1.5 -1.0" image="#thumbRhine2"  title="Move to Rhine 3"></a-link>

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Links</title>
-    <meta name="description" content="Motion Capture Components – A-Frame">
+    <meta name="description" content="Links – A-Frame">
     <script src="js/aframe-master.js"></script>
     <script src="js/components/aframe-tooltip-component.js"></script>
     <script src="js/components/camera-position.js"></script>
@@ -12,25 +12,19 @@
     <script src="shaders/skyGradient.js"></script>
   </head>
   <body>
-    <!--
-    <a href="rhine2.html" position="-3.5 1.5 -1.0" image="#thumbRhine1" title="Move to Rhine 2"></a-link>
-    <a href="rhine3.html" position="0 1.5 -1.0" image="#thumbRhine2"  title="Move to Rhine 3"></a-link>
-    <a href="rhine4.html" position="3.5 1.5 -1.0" image="#thumbRhine3" title="Move to Rhine 4"></a-link>
-    -->
-    <a-scene raycaster="far: 100; objects: [link];" cursor="rayOrigin: mouse" camera-position>
+    <a-scene fog="color: #241417; near: 0; far: 30;" raycaster="far: 100; objects: [link];" cursor="rayOrigin: mouse" camera-position>
       <a-assets>
         <img id="thumbRhine1" crossOrigin="anonymous" src="img/rhein1_rodenkirchen.jpg">
         <img id="thumbRhine2" crossOrigin="anonymous" src="img/rhein2_rodenkirchen.jpg">
         <img id="thumbRhine3" crossOrigin="anonymous" src="img/rhein3_rodenkirchen.jpg">
         <img id="thumbRhine4" crossOrigin="anonymous" src="img/rhein4_rodenkirchen.jpg">
       </a-assets>
-      <a-link href="rhine2.html" position="-3.5 1.5 -1.0" image="#thumbRhine1" title="Move to Rhine 2"></a-link>
+      <a-link href="index.html" position="-3.5 1.5 -1.0" image="#thumbRhine1" title="Move to Rhine 1"></a-link>
+      <a-link href="rhine3.html" position="0 1.5 -1.0" image="#thumbRhine3"  title="Move to Rhine 3"></a-link>
       <!--
-      <a-link href="rhine2.html" position="-3.5 1.5 -1.0" image="#thumbRhine1" title="Move to Rhine 2"></a-link>
-      <a-link href="rhine3.html" position="0 1.5 -1.0" image="#thumbRhine2"  title="Move to Rhine 3"></a-link>
-      <a-link href="rhine4.html" position="3.5 1.5 -1.0" image="#thumbRhine3" title="Move to Rhine 4"></a-link>
+      <a-link href="rhine4.html" position="3.5 1.5 -1.0" image="#thumbRhine4" title="Move to Rhine 4"></a-link>
       -->
-      <a-sky src="#thumbRhine1" rotation="0 -130 0"></a-sky>
+      <a-sky src="#thumbRhine2" crossOrigin="anonymous" rotation="0 -130 0"></a-sky>
       <a-entity id="leftHand" link-controls="hand: left"></a-entity>
       <a-entity id="rightHand" link-controls="hand: right"></a-entity>
     </a-scene>

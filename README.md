@@ -1,5 +1,9 @@
 # Aframe360Navigation
-This repository applies link traversal concept on 360 degree images in [AFrame](https://aframe.io). As 360 degree images 4 images of the river Rhine close to Cologne/Rodenkirchen in Germany were used:
+This repository applies link traversal concept on 360 degree images in [AFrame](https://aframe.io). 
+
+* [**360 Degree Tour at River Rhine near Rodenkirchen/Cologne in Germany**](https://niebert.github.io/aframe360navigation)
+
+As 360 degree images 4 images of the river Rhine close to Cologne/Rodenkirchen in Germany were used:
 * [**Rheinauen - Cologne 1**](https://niebert.github.io/HuginSample/rhein1_rodenkirchen.html) - [Equirectangular Image](https://niebert.github.io/HuginSample/img/rhein1_rodenkirchen.jpg) - image is licensed under the [Creative Commons](https://en.wikipedia.org/wiki/en:Creative_Commons) [Attribution-Share Alike 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/deed.en).
 * [**Rheinauen - Cologne 2**](https://niebert.github.io/HuginSample/rhein2_rodenkirchen.html) - [Equirectangular Image](https://niebert.github.io/HuginSample/img/rhein1_rodenkirchen.jpg) - image is licensed under the [Creative Commons](https://en.wikipedia.org/wiki/en:Creative_Commons) [Attribution-Share Alike 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/deed.en).
 * [**Rheinauen - Cologne 3**](https://niebert.github.io/HuginSample/rhein3_rodenkirchen.html) - [Equirectangular Image](https://niebert.github.io/HuginSample/img/rhein1_rodenkirchen.jpg) - image is licensed under the [Creative Commons](https://en.wikipedia.org/wiki/en:Creative_Commons) [Attribution-Share Alike 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/deed.en).

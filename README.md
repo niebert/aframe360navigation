@@ -1,7 +1,7 @@
 # Aframe360Navigation
 This repository applies link traversal concept on 360 degree images in [AFrame](https://aframe.io).
 
-<h2> [**360 Degree Tour at River Rhine near Rodenkirchen/Cologne in Germany**](https://niebert.github.io/aframe360navigation) </h2>
+<h2> [360 Degree Tour at River Rhine near Rodenkirchen/Cologne in Germany](https://niebert.github.io/aframe360navigation) </h2>
 
 ## 360 Degree Images
 As 360 degree images 4 images of the river Rhine close to Cologne/Rodenkirchen in Germany were used:

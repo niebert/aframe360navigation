@@ -22,6 +22,14 @@ For adding 3D object on markers and generating basic 3D scenes on Markers you ca
 
 See example https://niebert.github.io/JSON3D4Aframe/mods3d/water_molecule_sky_aframe.html
 
+## Sky Images
+* https://niebert.github.io/aframe360samples/
+
+
+## AR-Examples
+Aframe is used in AR.js to display 3D-Models on a marker
+* ***[AR Example](https://niebert.github.io/AR-Examples/)***
+
 ## Links
 * [Aframe](https://aframe.io)
 * [`JSON3D4Aframe`](https://niebert.github.io/JSON3D4Aframe)
